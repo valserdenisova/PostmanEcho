@@ -19,7 +19,7 @@ class MainTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", org.hamcrest.Matchers.equalTo("some data"))
+                .body("data", org.hamcrest.Matchers.equalTo("som data"))
         ;
     }
 
